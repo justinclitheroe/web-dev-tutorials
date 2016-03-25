@@ -1,0 +1,32 @@
+#calc {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.btn {
+	position: relative;
+	text-align: center;
+	color: #FFF;
+	display: inline-block;
+	text-decoration: none;
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	margin: 2px;
+	border: solid 1px #D94E3B;
+	background: #cb3b27;
+
+	transition: all 0.2s;
+
+	box-shadow: 0px 9px 0px #84261a;
+}
+
+.btn.double{
+	width: 80px;
+}
+
+.btn:active {
+	box-shadow: 0px 2px 0px #84261a;
+	/*position: relative;*/
+	top: 7px;
+}
